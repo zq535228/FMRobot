@@ -13,7 +13,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 
 chrome_options = Options()
 # hide browser window
-chrome_options.add_argument("--headless")       # define headless
+#chrome_options.add_argument("--headless")       # define headless
 prefs = {
     'profile.default_content_setting_values' : {
         'images' : 2
@@ -29,47 +29,58 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
 def main():
+    #判断是否已经登录
     if islogin():
-        '''
-        urls = []
-        urls.append('104252_4')
-        urls.append('230764_2')
-        urls.append('104252_4')
-        urls.append('193166_4')
-        urls.append('184338_2')
-      
-        for index in range(len(urls)):
-            url = buildvisturl(urls[index])
-            visit(url)
-        '''
         getidfromnew()
-
     else:
+        #如果没有登录那么一直进行登录。
         login()
         main()
-
+#创建url
 def buildvisturl(id):
     url  = "https://www.followme.com/api/v2/trade/traders/"+id+"/followers?isFollowing=false&pageSize=1000&pageIndex=1&accountType=&pageField=PROFIT&pageSort=DESC&flag=1"
 
     return url
-
+#进行最新微博的刷新
 def getidfromnew():
     url = "https://www.followme.com/api/v3/social/newsBlogs?pageSize=100&pageIndex=1&LastBlogId=0"
     driver.get(url)
     html = driver.page_source
     html = re.sub(r'<.*?>','',html)
-    #print(html)
+
     al = re.findall(r",\"UserId\":\"(.*?)\"", html)
     
     urls = set()
     for index in al:
         url = "https://www.followme.com/user/"+ index +"/zone"
         urls.add(url)
+    
+    print(urls)
+    
     i = 0
     for u in urls:
         i = i+1
-        time.sleep(5)
         driver.get(u)
+        time.sleep(5)
+        html = driver.page_source
+
+        #微博点赞
+        try:
+            driver.find_element_by_xpath("//*[contains(@class,'fm-praise-button')]").click()
+        except:
+            pass
+        #评论点赞
+        try:
+            driver.find_element_by_xpath("//*[contains(@class,'icon-like_24px')]").click()
+            driver.find_element_by_xpath("//*[contains(@class,'icon-like_24px')]").click()
+            driver.find_element_by_xpath("//*[contains(@class,'icon-like_24px')]").click()
+            driver.find_element_by_xpath("//*[contains(@class,'icon-like_24px')]").click()
+            driver.find_element_by_xpath("//*[contains(@class,'icon-like_24px')]").click()
+            driver.find_element_by_xpath("//*[contains(@class,'icon-like_24px')]").click()
+            driver.find_element_by_xpath("//*[contains(@class,'icon-like_24px')]").click()
+        except:
+            pass     
+
         driver.get_screenshot_as_file("./img/"+str(i)+".png")
 
 def login():
@@ -78,7 +89,7 @@ def login():
     driver.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='注册'])[1]/following::input[1]").clear()
     driver.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='注册'])[1]/following::input[1]").send_keys("13604023002")
     driver.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='注册'])[1]/following::input[2]").clear()
-    driver.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='注册'])[1]/following::input[2]").send_keys("")
+    driver.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='注册'])[1]/following::input[2]").send_keys("z123456")
     driver.find_element_by_id("login-password").click()
     time.sleep(5)
 
