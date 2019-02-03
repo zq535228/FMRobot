@@ -1,9 +1,9 @@
-#coding=utf-8
+# coding=utf-8
 
 import time
 from selenium import webdriver
 import requests
-import json,re
+import json, re
 import pprint
 from selenium.webdriver.chrome.options import Options
 import io
@@ -169,7 +169,6 @@ res.append("虽然工作很辛苦，但是从没有想过放弃外汇交易，�
 res.append("有句话叫 暂时的放弃是为了永久的陪伴。说的没错。")
 res.append("做好交易是我一直以来的信仰和希望，谢谢还有朋友一直鼓励我。")
 res.append("都说十年磨一剑，今年正好十年，我觉得我对交易的解读又更深了一点。")
-res.append("我打算用5000美金开始新的一个交易，看看这十年磨的一剑能否经得住检验。")
 res.append("眨眼之间。回来看看有多少朋友还在。")
 res.append("南阎浮提众生，其性刚强，难调难服。")
 res.append("资本市场要是有人能听劝就好了，因为每个人都有自己的特质，每个人都有理由相信自己没准也是个传奇")
@@ -177,79 +176,80 @@ res.append("是啊，交易者是孤独的，不和市场大多数人不一样�
 res.append("天天盯盘，半夜还要起来，熬的性生活都不想有了，忍心吗")
 res.append("我的任务就是让你玩爽 一直在")
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 chrome_options = Options()
-# hide browser window
-#chrome_options.add_argument("--headless")       # define headless
-prefs = {
-    'profile.default_content_setting_values' : {
-        'images' : 2
-    }
-}
-chrome_options.add_experimental_option('prefs',prefs)
+prefs = {'profile.default_content_setting_values': {'images': 2}}
+chrome_options.add_experimental_option('prefs', prefs)
 chrome_options.add_argument('lang=zh_CN.UTF-8')
+# hide browser window
+chrome_options.add_argument("--headless")  # define headless
 
 # add the option when creating driver
 driver = webdriver.Chrome(chrome_options=chrome_options)
 
+
 def main():
-    #判断是否已经登录
+    # 判断是否已经登录
     if islogin():
         getidfromnew()
     else:
-        #如果没有登录那么一直进行登录。
+        # 如果没有登录那么一直进行登录。
         login()
         main()
-#创建url
+
+
+# 创建url
 def buildvisturl(id):
-    url  = "https://www.followme.com/api/v2/trade/traders/"+id+"/followers?isFollowing=false&pageSize=1000&pageIndex=1&accountType=&pageField=PROFIT&pageSort=DESC&flag=1"
+    url = "https://www.followme.com/api/v2/trade/traders/" + id + "/followers?isFollowing=false&pageSize=1000&pageIndex=1&accountType=&pageField=PROFIT&pageSort=DESC&flag=1"
     return url
 
-#进行最新微博的刷新
+
+# 进行最新微博的刷新
 def getidfromnew():
     url = "https://www.followme.com/api/v3/social/newsBlogs?pageSize=100&pageIndex=1&LastBlogId=0"
     driver.get(url)
     html = driver.page_source
-    html = re.sub(r'<.*?>','',html)
+    html = re.sub(r'<.*?>', '', html)
 
     al = re.findall(r",\"UserId\":\"(.*?)\"", html)
-    
+
     urls = set()
     for index in al:
-        url = "https://www.followme.com/user/"+ index
+        url = "https://www.followme.com/user/" + index
         urls.add(url)
-    
+
     print(urls)
-    
+
     i = 0
     for u in urls:
-        i = i+1
+        i = i + 1
         driver.get(u)
         time.sleep(5)
         html = driver.page_source
 
-        #微博点赞
+        # 微博点赞
         try:
             driver.find_element_by_xpath("//*[contains(@class,'fm-fmt-nums')]").click()
-            time.sleep(1)   
+            time.sleep(1)
             driver.find_element_by_xpath("//*[contains(@class,'cmt-foot-count')]").click()
-            time.sleep(1)   
+            time.sleep(1)
             driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[1]/a[1]/i").click()
             time.sleep(3)
 
-            #跟帖回复
+            # 跟帖回复
             driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").click()
             driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").clear()
             tmpre = random.choice(res)
             driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").send_keys(tmpre)
             driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[2]/div[2]/a").click()
-            time.sleep(3)   
+            time.sleep(3)
         except:
             pass
 
         urls = driver.current_url.split('/')
-        driver.get_screenshot_as_file("./img/"+urls[4]+".png")
+        driver.get_screenshot_as_file("./img/" + urls[4] + ".png")
+
 
 def login():
     driver.get("https://auth.followme.com/login?source=iframe")
@@ -266,6 +266,7 @@ def login():
 
     time.sleep(5)
 
+
 def islogin():
     driver.get("https://www.followme.com/?t=my")
     html = driver.page_source
@@ -279,12 +280,12 @@ def islogin():
 def visit(url):
     driver.get(url)
     html = driver.page_source
-    html = re.sub(r'<.*?>','',html)
+    html = re.sub(r'<.*?>', '', html)
 
     j1 = json.loads(html)['data']['items']
 
     for index in range(len(j1)):
-        url = "https://www.followme.com/user/"+ str(j1[index]["CustomerUserId"])+"/zone"
+        url = "https://www.followme.com/user/" + str(j1[index]["CustomerUserId"]) + "/zone"
         driver.get(url)
         time.sleep(5)
 

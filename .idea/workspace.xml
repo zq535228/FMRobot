@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/followTop10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fm3.py" beforeDir="false" afterPath="$PROJECT_DIR$/fm3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/110187.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/110187.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/126003.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/126003.png" afterDir="false" />
@@ -11,7 +16,7 @@
       <change beforePath="$PROJECT_DIR$/img/136561.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136561.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/137836.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/137836.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/143148.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/143148.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/148904.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148904.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/148159.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148159.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/176934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/176934.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/180878.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/180878.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/181509.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181509.png" afterDir="false" />
@@ -21,15 +26,23 @@
       <change beforePath="$PROJECT_DIR$/img/198318.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/198318.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/199918.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/199918.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/201207.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/201207.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/202778.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/202778.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/203489.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/203489.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/205008.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/205008.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/209179.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/209179.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/209242.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/209242.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/210126.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/210163.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210163.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/214426.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/214426.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/218409.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/218409.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/219934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/219934.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222623.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222623.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/222770.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222770.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/222790.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222790.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/222799.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222799.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/223033.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/223033.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/224953.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/224953.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/226162.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226162.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/226516.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226516.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/227435.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227435.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/227636.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227636.png" afterDir="false" />
@@ -40,11 +53,17 @@
       <change beforePath="$PROJECT_DIR$/img/230520.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230520.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/231589.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/231589.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/231965.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/231965.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/232742.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/232742.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/234429.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234429.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/234431.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234431.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/235386.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/235386.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/237087.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/237087.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238449.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238449.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238841.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238841.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/239358.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239358.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/239961.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239961.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/73853.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/73853.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/81820.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/81820.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/83410.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/83410.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/89192.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/89192.png" afterDir="false" />
     </list>
@@ -54,18 +73,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FMRobot$fm3.coverage" NAME="fm3 Coverage Results" MODIFIED="1549160467670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1549163989241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$top.coverage" NAME="top Coverage Results" MODIFIED="1549177227988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1549178880947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fm3.py">
+        <entry file="file://$PROJECT_DIR$/followTop10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="424">
+              <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+              <folding>
+                <element signature="e#2419#3430#0" />
+                <element signature="e#3452#3647#0" />
+                <element signature="e#3670#3969#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,15 +110,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/chatbot.py" />
         <option value="$PROJECT_DIR$/fm3.py" />
+        <option value="$PROJECT_DIR$/top.py" />
+        <option value="$PROJECT_DIR$/followTop10.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="52" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -104,7 +147,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,6 +162,104 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.followTop10">
+    <configuration name="chatbot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FMRobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chatbot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fm3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FMRobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fm3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="followTop10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FMRobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/followTop10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="top" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FMRobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\MT4S\Alpari MT4 - 60161965\MQL4\Experts\FMRobot\followTop10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.followTop10" />
+        <item itemvalue="Python.top" />
+        <item itemvalue="Python.chatbot" />
+        <item itemvalue="Python.fm3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -128,48 +270,145 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549158854604</updated>
-      <workItem from="1549158860656" duration="920000" />
+      <workItem from="1549158860656" duration="4560000" />
+      <workItem from="1549172158061" duration="7012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="920000" />
+    <option name="totallyTimeSpent" value="11572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1520" height="976" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22945206" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.1462766" />
+      <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2013889" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.29282406" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49863014" weight="0.32897863" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013298" side_tool="true" weight="0.39930555" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49931508" weight="0.32897863" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="j1" />
+        <watch expression="j1" />
+        <watch expression="totalloss" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>j1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>time</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j1[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j1[0]['NickName']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/followme.py" />
+    <entry file="file://$PROJECT_DIR$/fm2.py" />
+    <entry file="file://$PROJECT_DIR$/img/210126.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/211905.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/214044.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/214053.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/214426.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="318" selection-start-line="318" selection-end-line="318" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fm3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="487">
+          <caret line="290" selection-start-line="286" selection-end-line="290" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/followTop10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+          <folding>
+            <element signature="e#2419#3430#0" />
+            <element signature="e#3452#3647#0" />
+            <element signature="e#3670#3969#0" />
+          </folding>
         </state>
       </provider>
     </entry>
