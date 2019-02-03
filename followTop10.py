@@ -72,9 +72,13 @@ def getidfromnew():
     outstr += '上周盈利TOP10：\n' + totalprofittop10 + '\n'
     outstr += '上周亏损TOP10：\n' + totallosstop10 + '\n'
     outstr += '上周跟随盈利值：' + str(round(totalprofit, 2)) + '美元\n'
-    outstr += '上周跟随亏损值：' + str(round(totalloss, 2)) + '美元\n'
-    outstr += '上周跟随盈亏净值：' + str(round(totalprofit + totalloss, 2)) + '美元\n'
-    outstr += '上周跟随盈亏净值：' + str(round((totalloss + totalprofit) * 6.9, 2)) + '人民币\n\n'
+    #outstr += '上周跟随亏损值：' + str(round(totalloss, 2)) + '美元\n'
+    #outstr += '上周跟随盈亏净值：' + str(round(totalprofit + totalloss, 2)) + '美元\n'
+    #outstr += '上周跟随盈亏净值：' + str(round((totalloss + totalprofit) * 6.9, 2)) + '人民币\n\n'
+    outstr += '上周跟随亏损值：*** 美元\n'
+    outstr += '上周跟随盈亏净值：*** 美元\n'
+    outstr += '上周跟随盈亏净值：*** 人民币\n\n'
+
     outstr += '统计by NinjaLoveFish ' + time.strftime("%Y-%m-%d", time.localtime())
     print(outstr)
 

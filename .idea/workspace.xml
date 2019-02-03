@@ -2,70 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/followTop10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fm3.py" beforeDir="false" afterPath="$PROJECT_DIR$/fm3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/110187.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/110187.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/126003.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/126003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/130208.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/130208.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/13532.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/13532.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/136273.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136273.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/136561.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136561.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/137836.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/137836.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/143148.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/143148.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/148159.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148159.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/176934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/176934.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/180878.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/180878.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/181509.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181509.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/187667.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/187667.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/188703.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/188703.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/196518.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/196518.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/198318.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/198318.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/199918.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/199918.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/201207.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/201207.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/202778.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/202778.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/203489.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/203489.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/205008.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/205008.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/209179.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/209179.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/209242.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/209242.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/210126.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210126.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/210163.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210163.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/214426.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/214426.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/218409.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/218409.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/219934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/219934.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222623.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222623.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222770.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222770.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222790.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222790.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222799.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222799.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/223033.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/223033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/224953.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/224953.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/226162.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226162.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/226516.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226516.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/227435.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227435.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/227636.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227636.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/228059.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228059.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/228281.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228281.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/229940.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/229940.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/230065.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230065.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/230520.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/231589.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/231589.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/231965.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/231965.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/232742.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/232742.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/234429.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234429.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/234431.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234431.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/235386.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/235386.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/237087.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/237087.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/238449.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238449.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/238841.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238841.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/239358.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239358.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/239961.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239961.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/73853.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/73853.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/81820.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/81820.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/83410.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/83410.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/89192.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/89192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/followTop10.py" beforeDir="false" afterPath="$PROJECT_DIR$/followTop10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,19 +16,36 @@
     <SUITE FILE_PATH="coverage/FMRobot$fm3.coverage" NAME="fm3 Coverage Results" MODIFIED="1549160467670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1549163989241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$top.coverage" NAME="top Coverage Results" MODIFIED="1549177227988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1549178880947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1549202771588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/followTop10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+            <state relative-caret-position="541">
+              <caret line="76" column="87" selection-start-line="76" selection-start-column="87" selection-end-line="76" selection-end-column="87" />
               <folding>
-                <element signature="e#2419#3430#0" />
-                <element signature="e#3452#3647#0" />
-                <element signature="e#3670#3969#0" />
+                <element signature="e#2218#2275#0" />
               </folding>
             </state>
           </provider>
@@ -131,6 +87,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +99,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,23 +227,32 @@
       <option name="presentableId" value="Default" />
       <updated>1549158854604</updated>
       <workItem from="1549158860656" duration="4560000" />
-      <workItem from="1549172158061" duration="7012000" />
+      <workItem from="1549172158061" duration="7346000" />
+      <workItem from="1549202477781" duration="263000" />
     </task>
+    <task id="LOCAL-00001" summary="..">
+      <created>1549179219627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549179219627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11572000" />
+    <option name="totallyTimeSpent" value="12169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1520" height="976" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.1462766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.1462766" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2013889" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2013889" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.29282406" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -302,11 +267,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32978722" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -376,13 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -400,14 +362,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/followTop10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+        <state relative-caret-position="541">
+          <caret line="76" column="87" selection-start-line="76" selection-start-column="87" selection-end-line="76" selection-end-column="87" />
           <folding>
-            <element signature="e#2419#3430#0" />
-            <element signature="e#3452#3647#0" />
-            <element signature="e#3670#3969#0" />
+            <element signature="e#2218#2275#0" />
           </folding>
         </state>
       </provider>
