@@ -123,8 +123,7 @@ res.append("被强平仓很正常，同样的错误再范三次就不就不应�
 res.append("爆仓确实很正常。加油！")
 res.append("有希望就要追")
 res.append("坚持不住吧")
-res.append("每次入金到爆仓从来没有超过半个月。贪，重仓，急躁，没耐性，不按规则出牌，这些都是导致爆仓的重要原因。")
-res.append("反正入金都是爆仓结束，然后再入，然后再爆仓！入金多少次就爆仓多少次！")
+res.append("贪，重仓，急躁，没耐性，不按规则出牌，这些都是导致爆仓的重要原因。")
 res.append("其实我想说的是，刚进入这个市场的新手朋友可能会觉得外汇很简单！但是外汇赚钱的是极少数的，大部分都是亏钱的，如果真要进入这个行业，首先两条原则 一是兼职就好，不要影响工作。二是资金量一定要小，亏了不影响生活。")
 res.append("刚进入这个行业的新手很多都是抱着赚大钱，一夜暴富的想法来的，但是很残酷，往往抱有这种想法的交易者，最容易在外汇交易市场里折戟！")
 res.append("开始进入市场就要抱着缴学费的心态来交易，所以资金量自然不会大，用最少的学费学到更多的东西，当你有一天觉得自己有把握能够持续稳定盈利之后，再增加资金也不迟。")
@@ -205,7 +204,6 @@ def main():
 #创建url
 def buildvisturl(id):
     url  = "https://www.followme.com/api/v2/trade/traders/"+id+"/followers?isFollowing=false&pageSize=1000&pageIndex=1&accountType=&pageField=PROFIT&pageSort=DESC&flag=1"
-
     return url
 
 #进行最新微博的刷新

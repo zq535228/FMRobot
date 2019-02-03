@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/fm3.py" beforeDir="false" afterPath="$PROJECT_DIR$/fm3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/110187.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/110187.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/126003.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/126003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/130208.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/130208.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/13532.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/13532.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/136273.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136273.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/136561.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136561.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/137836.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/137836.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/143148.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/143148.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/148904.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148904.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/176934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/176934.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/180878.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/180878.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/181509.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181509.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/187667.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/187667.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/188703.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/188703.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/196518.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/196518.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/198318.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/198318.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/199918.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/199918.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/201207.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/201207.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/205008.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/205008.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/209242.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/209242.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/210126.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/218409.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/218409.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/219934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/219934.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222770.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222770.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222790.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222790.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222799.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222799.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/223033.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/223033.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/226516.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226516.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/227435.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227435.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/227636.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227636.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/228059.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228059.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/228281.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228281.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/229940.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/229940.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/230065.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230065.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/230520.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230520.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/231589.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/231589.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/231965.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/231965.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/234431.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234431.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/235386.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/235386.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/237087.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/237087.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/239961.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239961.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/73853.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/73853.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/83410.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/83410.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/89192.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/89192.png" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fm3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fm3.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="52" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="920" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FMRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FMRobot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="" />
+      <created>1549158854604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549158854604</updated>
+      <workItem from="1549158860656" duration="920000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="920000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1520" height="976" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22945206" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fm3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
