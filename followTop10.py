@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.options import Options
 import io
 import sys
 import random
+import matplotlib.pyplot as plt
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
@@ -52,8 +53,8 @@ def getidfromnew():
     totalprofittop10 = ""
     for index in range(len(j1)):
         totalprofit += j1[index]['FollowMoney']
-        if index <= 10:
-            totalprofittop10 += '@' + j1[index]['NickName'] + '\n'
+        if index < 10:
+            totalprofittop10 += '@' + j1[index]['NickName'] + ' #' + str(j1[index]['AccountIndex']) + '\n'
 
     url = "https://www.followme.cn/api/v2/trade/rank/followers?pageSize=100&pageIndex=1&time=7&pageSort=asc"
     driver.get(url)
@@ -65,8 +66,8 @@ def getidfromnew():
     totallosstop10 = ""
     for index in range(len(j1)):
         totalloss += j1[index]['FollowMoney']
-        if index <= 10:
-            totallosstop10 += '@' + j1[index]['NickName'] + '\n'
+        if index < 10:
+            totallosstop10 += '@' + j1[index]['NickName'] + ' #' + str(j1[index]['AccountIndex']) + '\n'
 
     outstr = '渔哥爬取了FM的TOP' + str(len(j1)) + '名跟随者数据，简单汇总分析后，结果如下：\n\n'
     outstr += '上周盈利TOP10：\n' + totalprofittop10 + '\n'
