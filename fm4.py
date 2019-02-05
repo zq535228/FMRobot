@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-import sys, io, re
+import sys, io, re, json
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 chrome_options = Options()
@@ -14,21 +14,51 @@ _prefs = {'profile.default_content_setting_values': {'images': 2}}
 chrome_options.add_experimental_option('prefs', _prefs)
 chrome_options.add_argument('lang=zh_CN.UTF-8')
 # hide browser window
-chrome_options.add_argument("--headless")  # define headless
+# chrome_options.add_argument("--headless")  # define headless
 
 # add the option when creating driver
 browser = webdriver.Chrome(chrome_options=chrome_options)
-wait = WebDriverWait(browser, 30)
+wait = WebDriverWait(browser, 60)
 
 
 def findtext(css):
     return browser.find_element_by_css_selector(css).text
 
 
-def pagedetail(url):
+def followdetail(url):
     try:
         browser.get(url)
-        roi = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#app > div.content-wrap > div.container > div > div.ac-rate-wrapper > div.ac-data-list > div:nth-child(1) > div.data.high')))
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#trade-analyze > div > div:nth-child(1) > div > div.detail_numtable > div.table-more > span')))
+
+        browser.find_element_by_css_selector('#trade-analyze > div > div:nth-child(1) > div > div.detail_numtable > div.table-more > span').click()
+
+        profit = findtext('#trade-analyze > div > div:nth-child(1) > div > div.detail_numtable > div:nth-child(6) > div.tab-value')
+
+        p = float(re.sub(r'\$', '', profit))
+
+        detail = {
+            'url': browser.current_url,
+            'user': findtext('#app-header-head-content-box > div.head-content-container > div.head-user-introduction > div.nickname > span'),
+            'Type': 2,  # 跟随账户
+            'account': findtext('#app > div.content-wrap > div.container > div > div.ac-rate-wrapper > div.ac-info > div > span:nth-child(3)'),
+            'broker': findtext('#app > div.content-wrap > div.container > div > div.ac-rate-wrapper > div.ac-info > div > span:nth-child(4)'),
+            'roi': findtext("#trade-analyze > div > div:nth-child(1) > div > div.detail_numtable > div:nth-child(1) > div.tab-value"),
+            'Profits': p,
+            'pips': findtext('#trade-analyze > div > div:nth-child(1) > div > div.detail_numtable > div:nth-child(4) > div.tab-value'),
+
+            }
+
+        print(detail)
+
+    except TimeoutException:
+        print('time out')
+        # followdetail(url)
+
+
+def tradedetail(url):
+    try:
+        browser.get(url)
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#trade-analyze > div > div:nth-child(1) > div > div.detail_numtable > div.table-more > span')))
 
         browser.find_element_by_css_selector('#trade-analyze > div > div:nth-child(1) > div > div.detail_numtable > div.table-more > span').click()
 
@@ -47,6 +77,7 @@ def pagedetail(url):
         detail = {
             'url': browser.current_url,
             'user': findtext('#app-header-head-content-box > div.head-content-container > div.head-user-introduction > div.nickname > span'),
+            'Type': 1,  # 交易账户
             'account': findtext('#app > div.content-wrap > div.container > div > div.ac-rate-wrapper > div.ac-info > div:nth-child(1) > span:nth-child(3)'),
             'broker': findtext('#app > div.content-wrap > div.container > div > div.ac-rate-wrapper > div.ac-info > div:nth-child(1) > span:nth-child(4)'),
             'balance': b,
@@ -65,22 +96,38 @@ def pagedetail(url):
         print(detail)
 
     except TimeoutException:
-        pagedetail(url)
+        print('time out')
+        # tradedetail(url)
 
 
-def uurl(t):
-    print(t)
+def userAccount(uid):
+    browser.get('https://www.followme.com/api/v2/trade/other/user/accounts?userId=' + uid)
+    html = browser.page_source
+    html = re.sub(r'<.*?>', '', html)
+
+    alist = json.loads(html)['data']['accounts']
+
+    for a in alist:
+
+        if a['AccountType'] == 3:
+            pass
+
+        if a['UserType'] == 1:
+            url = 'https://www.followme.com/user/' + str(uid) + '/trade-account/exhibition?index=' + str(a['AccountIndex'])
+            tradedetail(url)
+
+        if a['UserType'] == 2:
+            url = 'https://www.followme.com/user/' + str(uid) + '/trade-account/exhibition?index=' + str(a['AccountIndex'])
+            followdetail(url)
 
 
 def main():
-    urls = {
-        #'https://www.followme.com/user/136561/trade-account/analyze?index=6&activeType=1&bindFrom=&brokerId=7&hash=511836397',
-        #'https://www.followme.com/user/214631/trade-account/exhibition?index=3',
-        #'https://www.followme.com/user/157448/trade-account/exhibition?index=5',
-        'https://www.followme.com/user/232319/trade-account/analyze?index=3&activeType=1&bindFrom=&brokerId=112&hash=-1764212895',
+    ids = {
+        '157448',
+        '232319'
         }
-    for url in urls:
-        pagedetail(url)
+    for id in ids:
+        userAccount(id)
 
 
 if __name__ == '__main__':
