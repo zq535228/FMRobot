@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fm4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/followTop10.py" beforeDir="false" afterPath="$PROJECT_DIR$/followTop10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/110187.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/110187.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/126003.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/126003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/136273.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136273.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/136561.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136561.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/143148.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/143148.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/148159.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148159.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/148977.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148977.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/174990.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/174990.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/176934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/176934.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/181509.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181509.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/187667.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/187667.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/188703.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/188703.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/198318.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/198318.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/199662.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/199662.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/199918.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/199918.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/202778.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/202778.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/203489.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/203489.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/205008.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/205008.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/210126.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210126.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/219934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/219934.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/221107.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/221107.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222770.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222770.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222790.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222790.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222799.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222799.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/223033.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/223033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/226162.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226162.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/226516.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226516.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/227435.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227435.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/227815.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227815.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/228281.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228281.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/228325.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228325.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/229940.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/229940.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/230520.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230520.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/232742.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/232742.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/235386.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/235386.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/235938.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/235938.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/237087.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/237087.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/237092.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/237092.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/238590.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238590.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/239961.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239961.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/73853.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/73853.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/81820.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/81820.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/83410.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/83410.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/89560.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/89560.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fm4.py" beforeDir="false" afterPath="$PROJECT_DIR$/fm4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +15,7 @@
     <SUITE FILE_PATH="coverage/FMRobot$fm3.coverage" NAME="fm3 Coverage Results" MODIFIED="1549253376425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1549163989241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$top.coverage" NAME="top Coverage Results" MODIFIED="1549177227988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FMRobot$fm4.coverage" NAME="fm4 Coverage Results" MODIFIED="1549341958495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$fm4.coverage" NAME="fm4 Coverage Results" MODIFIED="1549348853079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$plt.coverage" NAME="plt Coverage Results" MODIFIED="1549243360845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1549245163901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -89,8 +43,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fm3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="19" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,11 +55,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fm4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="455">
+              <caret line="83" column="130" selection-start-line="83" selection-start-column="130" selection-end-line="83" selection-end-column="130" />
               <folding>
-                <element signature="e#17#47#0" expanded="true" />
+                <element signature="e#15#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="320" selection-start-line="320" selection-end-line="320" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python37-32/Lib/re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="191" selection-start-line="191" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -115,6 +90,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>for</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -314,7 +294,7 @@
       <workItem from="1549242859294" duration="2562000" />
       <workItem from="1549245484985" duration="757000" />
       <workItem from="1549253324403" duration="1303000" />
-      <workItem from="1549339134116" duration="2814000" />
+      <workItem from="1549339134116" duration="8968000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1549179219627</created>
@@ -337,30 +317,37 @@
       <option name="project" value="LOCAL" />
       <updated>1549203463996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="..">
+      <created>1549342065304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549342065304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21720000" />
+    <option name="totallyTimeSpent" value="27874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1520" height="976" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" weight="0.14428191" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" weight="0.14383562" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22337963" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.4085648" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863014" weight="0.22921616" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.31591448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49863014" weight="0.32897863" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013298" side_tool="true" weight="0.39930555" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50136983" side_tool="true" weight="0.22921616" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49931508" weight="0.32897863" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,20 +357,20 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32978722" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.14428191" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.14383562" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22337963" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.4085648" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863014" weight="0.22921616" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.31591448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49863014" weight="0.32897863" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013298" side_tool="true" weight="0.39930555" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50136983" side_tool="true" weight="0.22921616" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49931508" weight="0.32897863" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -400,15 +387,6 @@
     <MESSAGE value=".." />
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="j1" />
-        <watch expression="j1" />
-        <watch expression="totalloss" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
@@ -418,6 +396,26 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>calculate</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.sub(r'\$', '', detail['deposit'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>detail</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>detail['deposit']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>str(totalprofittop10_value)</expression-string>
         <language-id>Python</language-id>
@@ -445,21 +443,6 @@
       </expression>
       <expression>
         <expression-string>''.join(totalprofittop10_name)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>totalprofittop10_name[1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>totalprofittop10_name</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(totalprofittop10_name)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -545,19 +528,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fm3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="19" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fm4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="455">
+          <caret line="83" column="130" selection-start-line="83" selection-start-column="130" selection-end-line="83" selection-end-column="130" />
           <folding>
-            <element signature="e#17#47#0" expanded="true" />
+            <element signature="e#15#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
