@@ -54,7 +54,7 @@ def getidfromnew():
     for index in range(len(j1)):
         totalprofit += j1[index]['FollowMoney']
         if index < 10:
-            totalprofittop10 += '@' + j1[index]['NickName'] + ' #' + str(j1[index]['AccountIndex']) + '\n'
+            totalprofittop10 += '@' + j1[index]['NickName'] + '#' + str(j1[index]['AccountIndex']) + '\n'
 
     url = "https://www.followme.cn/api/v2/trade/rank/followers?pageSize=100&pageIndex=1&time=7&pageSort=asc"
     driver.get(url)
@@ -67,15 +67,16 @@ def getidfromnew():
     for index in range(len(j1)):
         totalloss += j1[index]['FollowMoney']
         if index < 10:
-            totallosstop10 += '@' + j1[index]['NickName'] + ' #' + str(j1[index]['AccountIndex']) + '\n'
+            totallosstop10 += '@' + j1[index]['NickName'] + '#' + str(j1[index]['AccountIndex']) + '\n'
 
-    outstr = '渔哥爬取了FM的TOP' + str(len(j1)) + '名跟随者数据，简单汇总分析后，结果如下：\n\n'
+    outstr = '又到周末了，发布一下上周的跟随情况。\n'
+    outstr += '渔哥爬取了FM的TOP' + str(len(j1)) + '名跟随者数据，简单汇总分析后，结果如下：\n\n'
     outstr += '上周盈利TOP10：\n' + totalprofittop10 + '\n'
     outstr += '上周亏损TOP10：\n' + totallosstop10 + '\n'
-    outstr += '上周跟随盈利值：' + str(round(totalprofit, 2)) + '美元\n'
-    outstr += '上周跟随亏损值：' + str(round(totalloss, 2)) + '美元\n'
-    outstr += '上周跟随盈亏净值：' + str(round(totalprofit + totalloss, 2)) + '美元\n'
-    outstr += '上周跟随盈亏净值：' + str(round((totalloss + totalprofit) * 6.9, 2)) + '人民币\n\n'
+    outstr += '上周跟随总盈利值：' + str(round(totalprofit, 2)) + '美元\n'
+    outstr += '上周跟随总亏损值：' + str(round(totalloss, 2)) + '美元\n'
+    outstr += '上周跟随盈亏合计：' + str(round(totalprofit + totalloss, 2)) + '美元\n'
+    outstr += '上周跟随盈亏合计：' + str(round((totalloss + totalprofit) * 6.9, 2)) + '人民币\n\n'
 
     outstr += '统计by NinjaLoveFish ' + time.strftime("%Y-%m-%d", time.localtime())
     print(outstr)

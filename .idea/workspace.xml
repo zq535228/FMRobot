@@ -2,8 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fm5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fm4.py" beforeDir="false" afterPath="$PROJECT_DIR$/fm4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/followTop10.py" beforeDir="false" afterPath="$PROJECT_DIR$/followTop10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/102248.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/102248.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/126003.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/126003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/134151.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/134151.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/136273.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136273.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/148159.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148159.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/148904.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/148904.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/168021.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/168021.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/176934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/176934.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/180878.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/180878.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/181324.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181324.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/181509.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181509.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/188703.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/188703.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/196518.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/196518.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/199918.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/199918.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/202778.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/202778.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/210126.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/219934.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/219934.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/221107.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/221107.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222770.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222770.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222790.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222790.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222799.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222799.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/223033.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/223033.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/224953.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/224953.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/226516.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226516.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/227435.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227435.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/227636.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227636.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/228281.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228281.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/229940.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/229940.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/230065.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230065.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/234429.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234429.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/234431.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234431.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/237087.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/237087.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238508.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238508.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238579.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238579.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/239961.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239961.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/68226.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/68226.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/83410.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/83410.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +51,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FMRobot$fm3.coverage" NAME="fm3 Coverage Results" MODIFIED="1549253376425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$fm3.coverage" NAME="fm3 Coverage Results" MODIFIED="1549374648162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1549163989241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$top.coverage" NAME="top Coverage Results" MODIFIED="1549177227988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FMRobot$fm4.coverage" NAME="fm4 Coverage Results" MODIFIED="1549348853079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$fm4.coverage" NAME="fm4 Coverage Results" MODIFIED="1549353187594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$plt.coverage" NAME="plt Coverage Results" MODIFIED="1549243360845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1549245163901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1549420514974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$fm5.coverage" NAME="fm5 Coverage Results" MODIFIED="1549419595192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,43 +81,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fm3.py">
+        <entry file="file://$PROJECT_DIR$/fm5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="19" />
+            <state relative-caret-position="280">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
-                <element signature="e#16#27#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fm4.py">
+        <entry file="file://$PROJECT_DIR$/followTop10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="83" column="130" selection-start-line="83" selection-start-column="130" selection-end-line="83" selection-end-column="130" />
+            <state relative-caret-position="-102">
+              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
               <folding>
-                <element signature="e#15#45#0" expanded="true" />
+                <element signature="e#16#27#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files (x86)/Python37-32/Lib/re.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -94,6 +116,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>for</find>
+      <find>close</find>
+      <find>print</find>
+      <find>al</find>
+      <find>aluser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,9 +131,11 @@
         <option value="$PROJECT_DIR$/chatbot.py" />
         <option value="$PROJECT_DIR$/top.py" />
         <option value="$PROJECT_DIR$/plt.py" />
-        <option value="$PROJECT_DIR$/followTop10.py" />
-        <option value="$PROJECT_DIR$/fm3.py" />
+        <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/fm4.py" />
+        <option value="$PROJECT_DIR$/fm3.py" />
+        <option value="$PROJECT_DIR$/fm5.py" />
+        <option value="$PROJECT_DIR$/followTop10.py" />
       </list>
     </option>
   </component>
@@ -125,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,7 +165,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fm4">
+  <component name="RunManager" selected="Python.fm5">
     <configuration name="fm3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FMRobot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,6 +221,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fm4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fm5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FMRobot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fm5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,35 +295,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="top" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FMRobot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\MT4S\Alpari MT4 - 60161965\MQL4\Experts\FMRobot\followTop10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fm4" />
-        <item itemvalue="Python.fm3" />
         <item itemvalue="Python.followTop10" />
+        <item itemvalue="Python.fm5" />
+        <item itemvalue="Python.fm3" />
+        <item itemvalue="Python.fm4" />
         <item itemvalue="Python.plt" />
-        <item itemvalue="Python.top" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +322,11 @@
       <workItem from="1549242859294" duration="2562000" />
       <workItem from="1549245484985" duration="757000" />
       <workItem from="1549253324403" duration="1303000" />
-      <workItem from="1549339134116" duration="8968000" />
+      <workItem from="1549339134116" duration="13637000" />
+      <workItem from="1549358862106" duration="6385000" />
+      <workItem from="1549372554697" duration="2006000" />
+      <workItem from="1549374606229" duration="6016000" />
+      <workItem from="1549411208419" duration="9067000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1549179219627</created>
@@ -324,60 +356,82 @@
       <option name="project" value="LOCAL" />
       <updated>1549342065304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="..">
+      <created>1549348870134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549348870135</updated>
+    </task>
+    <task id="LOCAL-00006" summary="..">
+      <created>1549352028345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549352028345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27874000" />
+    <option name="totallyTimeSpent" value="56017000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1520" height="976" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" weight="0.14383562" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" weight="0.15068494" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863014" weight="0.22921616" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.31591448" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
+      <window_info active="true" anchor="bottom" content_ui="combo" x="73" y="336" width="1504" height="960" id="Run" order="2" sideWeight="0.49863014" visible="true" weight="0.5273159" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.32541567" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897863" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49863014" weight="0.32897863" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32897863" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50136983" side_tool="true" weight="0.22921616" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49931508" weight="0.32897863" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32897863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32978722" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32978722" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32945207" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.14383562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.15068494" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863014" weight="0.22921616" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.31591448" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49863014" visible="true" weight="0.96437055" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.32541567" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897863" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49863014" weight="0.32897863" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32897863" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50136983" side_tool="true" weight="0.22921616" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49931508" weight="0.32897863" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32897863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32978722" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32978722" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32945207" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +441,47 @@
     <MESSAGE value=".." />
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fm4.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>html['data']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html['code']['data']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r&quot;,\&quot;UserId\&quot;:\&quot;(.*?)\&quot;&quot;, html)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="watch">
       <expression>
         <expression-string>j1</expression-string>
@@ -397,52 +491,52 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>calculate</expression-string>
+        <expression-string>ids.count('107041')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.sub(r'\$', '', detail['deposit'])</expression-string>
+        <expression-string>ids</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>detail</expression-string>
+        <expression-string>ids.count(u)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>detail['deposit']</expression-string>
+        <expression-string>int(u)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str(totalprofittop10_value)</expression-string>
+        <expression-string>u</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>totalprofittop10_value</expression-string>
+        <expression-string>db.count({'UserId': '239305'})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>''.join(totalprofittop10_value)</expression-string>
+        <expression-string>db.count({'UserId': 239305})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>','.join(totalprofittop10_value)</expression-string>
+        <expression-string>ul</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>','.join(totalprofittop10_name)</expression-string>
+        <expression-string>db.count({'UserId': u})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>''.join(totalprofittop10_name)</expression-string>
+        <expression-string>adetail</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -470,13 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="318" selection-start-line="318" selection-end-line="318" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -518,30 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/followTop10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Python37-32/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1117">
           <caret line="916" selection-start-line="916" selection-end-line="916" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fm3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="19" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,19 +619,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        <state relative-caret-position="1693">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fm4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="83" column="130" selection-start-line="83" selection-start-column="130" selection-end-line="83" selection-end-column="130" />
+        <state relative-caret-position="516">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
           <folding>
             <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37-32/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fm3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="263" column="7" selection-start-line="263" selection-start-column="7" selection-end-line="263" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fm5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/followTop10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
           </folding>
         </state>
       </provider>

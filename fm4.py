@@ -121,14 +121,13 @@ def userAccount(uid):
             followdetail(url)
 
 
-def main():
-    ids = {
-        '157448',
-        '232319'
-        }
-    for id in ids:
-        userAccount(id)
 
+def main():
+    browser.get('https://www.followme.com/api/v2/trade/accounts/157448_5/statistics')
+    html = browser.page_source
+    html = re.sub(r'<.*?>', '', html)
+
+    alist = json.loads(html)['data']['accounts']
 
 if __name__ == '__main__':
     main()
@@ -137,4 +136,4 @@ if __name__ == '__main__':
 # https://www.followme.com/api/v2/trade/other/user/accounts?userId=157448
 
 #
-# https://www.followme.com/user/{userid}/trade-account/exhibition?index=5
+# https://www.followme.com/user/157448/trade-account/exhibition?index=5
