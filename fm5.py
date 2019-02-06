@@ -57,18 +57,21 @@ ids = list()
 
 
 def new(uid):
-    url = "https://www.followme.com/api/v3/social/user/attentions?userId=" + str(uid) + "&pageIndex=1&pageSize=32"
-    time.sleep(random.choice(sleeptime))
-    html = s.get(url).content
+    try:
+        url = "https://www.followme.com/api/v3/social/user/attentions?userId=" + str(uid) + "&pageIndex=1&pageSize=32"
+        time.sleep(random.choice(sleeptime))
+        html = s.get(url).content
 
-    ul = re.findall(r",\"UserId\":\"(.*?)\"", str(html))
-    for u in ul:
-        if ids.count(u) == 0 and db.count({'UserId': int(u)}) == 0:
-            account(u)
-            ids.append(u)
-            new(u)
-        else:
-            print("user exist：" + u)
+        ul = re.findall(r",\"UserId\":\"(.*?)\"", str(html))
+        for u in ul:
+            if ids.count(u) == 0 and db.count({'UserId': int(u)}) == 0:
+                account(u)
+                ids.append(u)
+                new(u)
+            else:
+                print("user exist：" + u)
+    except:
+        new(random.choice(ids))
 
 
 if __name__ == '__main__':
