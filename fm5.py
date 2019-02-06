@@ -11,14 +11,17 @@ s = requests.Session()
 
 # 根据用户ID，获取用户账户列表
 def account(uid):
-    url = 'https://www.followme.com/api/v2/trade/other/user/accounts?userId=' + str(uid)
-    print('crawl from userid：' + url)
-    html = s.get(url)
-    alist = json.loads(html.content)['data']['accounts']
+    try:
+        url = 'https://www.followme.com/api/v2/trade/other/user/accounts?userId=' + str(uid)
+        print('crawl from userid：' + url)
+        html = s.get(url)
+        alist = json.loads(html.content)['data']['accounts']
 
-    for aid in alist:
-        account_detail(uid, aid)
-        time.sleep(random.choice(sleeptime))
+        for aid in alist:
+            account_detail(uid, aid)
+            time.sleep(random.choice(sleeptime))
+    except:
+        account(uid)
 
 
 # https://www.followme.com/api/v2/trade/accounts/157448_5/statistics
