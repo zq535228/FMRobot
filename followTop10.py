@@ -69,8 +69,8 @@ def getidfromnew():
         if index < 10:
             totallosstop10 += '@' + j1[index]['NickName'] + '#' + str(j1[index]['AccountIndex']) + '\n'
 
-    outstr = '又到周末了，发布一下上周的跟随情况。\n'
-    outstr += '渔哥爬取了FM的TOP' + str(len(j1)) + '名跟随者数据，简单汇总分析后，结果如下：\n\n'
+    outstr = '又到周末了，发布一下上周的跟随统计。上周跟随者们的盈亏合计约：' + str(round((totalloss + totalprofit) * 6.9, 2)) + '人民币。详情请看图片：\n\n'
+    outstr += '渔哥爬取了FM的±TOP' + str(len(j1)) + '名跟随者数据，简单汇总分析后，结果如下：\n\n'
     outstr += '上周盈利TOP10：\n' + totalprofittop10 + '\n'
     outstr += '上周亏损TOP10：\n' + totallosstop10 + '\n'
     outstr += '上周跟随总盈利值：' + str(round(totalprofit, 2)) + '美元\n'
