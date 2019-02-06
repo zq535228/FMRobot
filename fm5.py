@@ -4,7 +4,7 @@ import pymongo, time, random
 sleeptime = [1, 2, 3, 4, 5]
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-db = myclient["fm5"]["accounts"]
+db_accounts = myclient["fm5"]["accounts"]
 
 s = requests.Session()
 
@@ -47,8 +47,8 @@ def account_detail(uid, aid):
             'AddTime': time.time(),
             }
 
-        if db.count({'id': aid['Id']}) == 0 and accd['BrokerName'] != '模拟账户':
-            x = db.insert_one(accd)
+        if db_accounts.count({'id': aid['Id']}) == 0 and accd['BrokerName'] != '模拟账户':
+            x = db_accounts.insert_one(accd)
             print('saved：' + str(x.inserted_id))
         else:
             print('exist:' + str(aid['Id']))
@@ -67,7 +67,7 @@ def new(uid):
 
         ul = re.findall(r",\"UserId\":\"(.*?)\"", str(html))
         for u in ul:
-            if ids.count(u) == 0 and db.count({'UserId': int(u)}) == 0:
+            if ids.count(u) == 0 and db_accounts.count({'UserId': int(u)}) == 0:
                 account(u)
                 ids.append(u)
                 new(u)
