@@ -1,5 +1,5 @@
 import requests, json, re
-import pymongo, time, random
+import pymongo, time, random,threading
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db_accounts = myclient["fm5"]["accounts"]
@@ -79,4 +79,10 @@ def new(uid):
 
 if __name__ == '__main__':
     # 入口
-    new(222799)
+    #new(222799)
+    t = threading.Thread(target=new, args=("212509",))
+    t.start()
+    t = threading.Thread(target=new, args=("222799",))
+    t.start()
+    t = threading.Thread(target=new, args=("237087",))
+    t.start()
