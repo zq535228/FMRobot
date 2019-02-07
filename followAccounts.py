@@ -3,6 +3,7 @@ import pymongo, time, random
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db_accounts = myclient["fm5"]["accounts"]
+db_userids = myclient['fm5']['userids']
 
 s = requests.Session()
 
@@ -19,7 +20,7 @@ def account(uid):
         for aid in alist:
             account_detail(uid, aid)
     except:
-        if 'get account card info failed' in html:
+        if 'get account card info failed' in s.get(url):
             return
         else:
             account(uid)
@@ -52,12 +53,11 @@ def account_detail(uid, aid):
             x = db_accounts.insert_one(accd)
             print('saved：' + str(x.inserted_id))
         else:
-            print('exist:' + str(aid['Id']))
+            print('acc exist or demo account:' + str(aid['Id']))
     except:
+        if '{}' in s.get(url):
+            return
         account_detail(uid, aid)
-
-
-ids = list()
 
 
 def new(uid):
@@ -67,16 +67,16 @@ def new(uid):
 
         ul = re.findall(r",\"UserId\":\"(.*?)\"", str(html))
         for u in ul:
-            if ids.count(u) == 0 and db_accounts.count({'UserId': int(u)}) == 0:
+            if db_userids.count({'UserId': int(u)}) == 0:
                 account(u)
-                ids.append(u)
+                db_userids.insert_one({'UserId': int(u)})
                 new(u)
             else:
                 print("user exist：" + u)
     except:
-        new(random.choice(ids))
+        new(random.choice(db_userids.find()))
 
 
 if __name__ == '__main__':
     # 入口
-    new(225649)
+    new(222799)
