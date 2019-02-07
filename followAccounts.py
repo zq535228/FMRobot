@@ -1,8 +1,6 @@
 import requests, json, re
 import pymongo, time, random
 
-sleeptime = [1, 2, 3, 4, 5]
-
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db_accounts = myclient["fm5"]["accounts"]
 
@@ -10,6 +8,7 @@ s = requests.Session()
 
 
 # 根据用户ID，获取用户账户列表
+# https://www.followme.com/api/v2/trade/other/user/accounts?userId={}
 def account(uid):
     try:
         url = 'https://www.followme.com/api/v2/trade/other/user/accounts?userId=' + str(uid)
@@ -19,9 +18,11 @@ def account(uid):
 
         for aid in alist:
             account_detail(uid, aid)
-            time.sleep(random.choice(sleeptime))
     except:
-        account(uid)
+        if 'get account card info failed' in html:
+            return
+        else:
+            account(uid)
 
 
 # https://www.followme.com/api/v2/trade/accounts/157448_5/statistics
@@ -53,7 +54,7 @@ def account_detail(uid, aid):
         else:
             print('exist:' + str(aid['Id']))
     except:
-        pass
+        account_detail(uid, aid)
 
 
 ids = list()
@@ -62,7 +63,6 @@ ids = list()
 def new(uid):
     try:
         url = "https://www.followme.com/api/v3/social/user/attentions?userId=" + str(uid) + "&pageIndex=1&pageSize=32"
-        time.sleep(random.choice(sleeptime))
         html = s.get(url).content
 
         ul = re.findall(r",\"UserId\":\"(.*?)\"", str(html))
@@ -79,4 +79,4 @@ def new(uid):
 
 if __name__ == '__main__':
     # 入口
-    new(229081)
+    new(225649)
