@@ -25,19 +25,15 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
 def main():
+    getidfromnew()
+
     # 判断是否已经登录
-    if islogin():
-        getidfromnew()
-    else:
-        # 如果没有登录那么一直进行登录。
-        login()
-        main()
-
-
-# 创建url
-def buildvisturl(id):
-    url = "https://www.followme.com/api/v2/trade/traders/" + id + "/followers?isFollowing=false&pageSize=1000&pageIndex=1&accountType=&pageField=PROFIT&pageSort=DESC&flag=1"
-    return url
+    # if islogin():
+    #    getidfromnew()
+    # else:
+    #    # 如果没有登录那么一直进行登录。
+    #    login()
+    #    main()
 
 
 # 进行最新微博的刷新

@@ -1,5 +1,5 @@
 import requests, json, re
-import pymongo, time, random,threading
+import pymongo, time, random, threading
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db_accounts = myclient["fm5"]["accounts"]
@@ -52,6 +52,7 @@ def account_detail(uid, aid):
         if db_accounts.count({'id': aid['Id']}) == 0 and accd['BrokerName'] != '模拟账户':
             x = db_accounts.insert_one(accd)
             print('saved：' + str(x.inserted_id))
+            print('.' * 10)
         else:
             print('acc exist or demo account:' + str(aid['Id']))
     except:
@@ -79,10 +80,9 @@ def new(uid):
 
 if __name__ == '__main__':
     # 入口
-    #new(222799)
-    t = threading.Thread(target=new, args=("212509",))
-    t.start()
-    t = threading.Thread(target=new, args=("222799",))
-    t.start()
-    t = threading.Thread(target=new, args=("237087",))
-    t.start()
+    # new(222799)
+    t1 = threading.Thread(target=new, args=("212509",))
+    t1.start()
+    t2 = threading.Thread(target=new, args=("222799",))
+    t2.start()
+
