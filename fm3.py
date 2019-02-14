@@ -2,9 +2,7 @@
 
 import time
 from selenium import webdriver
-import requests
 import json, re
-import pprint
 from selenium.webdriver.chrome.options import Options
 import io
 import sys
@@ -183,10 +181,10 @@ prefs = {'profile.default_content_setting_values': {'images': 2}}
 chrome_options.add_experimental_option('prefs', prefs)
 chrome_options.add_argument('lang=zh_CN.UTF-8')
 # hide browser window
-chrome_options.add_argument("--headless")  # define headless
+# chrome_options.add_argument("--headless")  # define headless
 
 # add the option when creating driver
-driver = webdriver.Chrome(chrome_options=chrome_options)
+# driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
 def main():
@@ -237,13 +235,15 @@ def getidfromnew():
             driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[1]/a[1]/i").click()
             time.sleep(3)
 
-            # 跟帖回复
-            driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").click()
-            driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").clear()
-            tmpre = random.choice(res)
-            driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").send_keys(tmpre)
-            driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[2]/div[2]/a").click()
-            time.sleep(3)
+            # 跟帖回复,20%概率。
+            r = [1, 2, 3, 4, 5]
+            if 1 == random.choice(r):
+                driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").click()
+                driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").clear()
+                tmpre = random.choice(res)
+                driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[1]/div/textarea").send_keys(tmpre)
+                driver.find_element_by_xpath("//*[@id=\"fm-new-details-comment\"]/div[2]/div/div[2]/div[2]/a").click()
+                time.sleep(3)
         except:
             pass
 
