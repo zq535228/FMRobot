@@ -181,10 +181,10 @@ prefs = {'profile.default_content_setting_values': {'images': 2}}
 chrome_options.add_experimental_option('prefs', prefs)
 chrome_options.add_argument('lang=zh_CN.UTF-8')
 # hide browser window
-# chrome_options.add_argument("--headless")  # define headless
+chrome_options.add_argument("--headless")  # define headless
 
 # add the option when creating driver
-# driver = webdriver.Chrome(chrome_options=chrome_options)
+driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
 def main():
