@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="..">
+    <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fm3.py" beforeDir="false" afterPath="$PROJECT_DIR$/fm3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/followTop10.py" beforeDir="false" afterPath="$PROJECT_DIR$/followTop10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/136273.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136273.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/196518.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/196518.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/222790.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222790.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/226162.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226162.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/230065.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230065.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/234429.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234429.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FMRobot$fm3.coverage" NAME="fm3 Coverage Results" MODIFIED="1549979709501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$fm3.coverage" NAME="fm3 Coverage Results" MODIFIED="1550146857861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$followAccounts.coverage" NAME="followAccounts Coverage Results" MODIFIED="1549523571607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1549163989241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FMRobot$followAccountsTOP100.coverage" NAME="followAccountsTOP100 Coverage Results" MODIFIED="1549523750295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$followAccountsTOP100.coverage" NAME="followAccountsTOP100 Coverage Results" MODIFIED="1550274225578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$top.coverage" NAME="top Coverage Results" MODIFIED="1549177227988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$fm4.coverage" NAME="fm4 Coverage Results" MODIFIED="1549353187594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$plt.coverage" NAME="plt Coverage Results" MODIFIED="1549243360845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1549979428107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FMRobot$followTop10.coverage" NAME="followTop10 Coverage Results" MODIFIED="1550273976068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FMRobot$fm5.coverage" NAME="fm5 Coverage Results" MODIFIED="1549424784102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -44,12 +50,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fm3.py">
+        <entry file="file://$PROJECT_DIR$/followTop10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
+            <state relative-caret-position="-136">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#16#27#0" expanded="true" />
+                <element signature="e#15#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +94,8 @@
         <option value="$PROJECT_DIR$/fmscrapy/fmscrapy/spiders/fm_account_spider.py" />
         <option value="$PROJECT_DIR$/followAccounts.py" />
         <option value="$PROJECT_DIR$/followAccountsTOP100.py" />
-        <option value="$PROJECT_DIR$/followTop10.py" />
         <option value="$PROJECT_DIR$/fm3.py" />
+        <option value="$PROJECT_DIR$/followTop10.py" />
       </list>
     </option>
   </component>
@@ -107,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fm3">
+  <component name="RunManager" selected="Python.followAccountsTOP100">
     <configuration name="fm3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FMRobot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,9 +257,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fm3" />
-        <item itemvalue="Python.followTop10" />
         <item itemvalue="Python.followAccountsTOP100" />
+        <item itemvalue="Python.followTop10" />
+        <item itemvalue="Python.fm3" />
         <item itemvalue="Python.followAccounts" />
         <item itemvalue="Python.fm5" />
       </list>
@@ -289,7 +295,9 @@
       <workItem from="1549628045258" duration="281000" />
       <workItem from="1549707120203" duration="712000" />
       <workItem from="1549979273452" duration="539000" />
-      <workItem from="1550146779145" duration="10000" />
+      <workItem from="1550146779145" duration="1465000" />
+      <workItem from="1550273958239" duration="976000" />
+      <workItem from="1550298355783" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1549179219627</created>
@@ -410,11 +418,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549979314275</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="..">
+      <created>1550146810166</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550146810166</updated>
+    </task>
+    <task id="LOCAL-00019" summary="..">
+      <created>1550146866440</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1550146866440</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84910000" />
+    <option name="totallyTimeSpent" value="87406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,15 +448,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1520" height="976" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.16471216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.16917808" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" content_ui="combo" x="73" y="336" width="1504" height="960" id="Run" order="2" sideWeight="0.49863014" weight="0.37648457" />
+      <window_info anchor="bottom" content_ui="combo" x="73" y="336" width="1504" height="960" id="Run" order="2" sideWeight="0.49863014" weight="0.2874109" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49867022" weight="0.32541567" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -716,10 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/followTop10.py">
+    <entry file="file://$PROJECT_DIR$/fm3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="272">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
@@ -728,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/followAccountsTOP100.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -738,20 +760,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/followAccounts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="388">
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fm3.py">
+    <entry file="file://$PROJECT_DIR$/followTop10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
+        <state relative-caret-position="-136">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#16#27#0" expanded="true" />
+            <element signature="e#15#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

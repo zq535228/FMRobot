@@ -1,15 +1,10 @@
 # coding=utf-8
-
 import time
 from selenium import webdriver
-import requests
 import json, re
-import pprint
 from selenium.webdriver.chrome.options import Options
 import io
 import sys
-import random
-import matplotlib.pyplot as plt
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
@@ -26,14 +21,6 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 
 def main():
     getidfromnew()
-
-    # 判断是否已经登录
-    # if islogin():
-    #    getidfromnew()
-    # else:
-    #    # 如果没有登录那么一直进行登录。
-    #    login()
-    #    main()
 
 
 # 进行最新微博的刷新
@@ -76,45 +63,6 @@ def getidfromnew():
 
     outstr += '统计by NinjaLoveFish ' + time.strftime("%Y-%m-%d", time.localtime())
     print(outstr)
-
-
-def login():
-    driver.get("https://auth.followme.com/login?source=iframe")
-    try:
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='SMS Login'])[1]/following::button[1]").click()
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::input[1]").click()
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::input[1]").clear()
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::input[1]").send_keys("13604023002")
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::input[2]").clear()
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::input[2]").send_keys("z123456")
-        driver.find_element_by_id("login-password").click()
-    except:
-        pass
-
-    time.sleep(5)
-
-
-def islogin():
-    driver.get("https://www.followme.com/?t=my")
-    html = driver.page_source
-    if "What's happening?" in html:
-        print('login in success')
-        return True
-    else:
-        return False
-
-
-def visit(url):
-    driver.get(url)
-    html = driver.page_source
-    html = re.sub(r'<.*?>', '', html)
-
-    j1 = json.loads(html)['data']['items']
-
-    for index in range(len(j1)):
-        url = "https://www.followme.com/user/" + str(j1[index]["CustomerUserId"]) + "/zone"
-        driver.get(url)
-        time.sleep(5)
 
 
 if __name__ == "__main__":
