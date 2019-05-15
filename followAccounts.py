@@ -81,8 +81,8 @@ def new(uid):
 if __name__ == '__main__':
     # 入口
     # new(222799)
-    t1 = threading.Thread(target=new, args=("212509",))
+    t1 = threading.Thread(target=new, args=("78201",))
     t1.start()
-    t2 = threading.Thread(target=new, args=("222799",))
+    t2 = threading.Thread(target=new, args=("222790",))
     t2.start()
 

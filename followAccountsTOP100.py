@@ -7,7 +7,7 @@ db_accounts = myclient["fm5"]["accounts"]
 
 def main():
     # 亏损排序统计
-    ulist = db_accounts.find().sort('MoneyCloseAll', 1).limit(20)
+    ulist = db_accounts.find().sort('MoneyCloseAll', 1).limit(500)
     loss = 0;
     for u in ulist:
         loss += u['MoneyCloseAll']
@@ -21,7 +21,7 @@ def main():
     print("社区亏损TOP20累计亏损金额合计：" + str(loss) + '人民币')
     print('其中亏损TOP20的连接如下：')
 
-    ulist = db_accounts.find().sort('MoneyCloseAll', 1).limit(20)
+    ulist = db_accounts.find().sort('MoneyCloseAll', 1).limit(500)
 
     for u in ulist:
         print(u['url'])
