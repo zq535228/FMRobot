@@ -2,41 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71019c78-c548-4c6c-a8cb-af31b3985c2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fm3.py" beforeDir="false" afterPath="$PROJECT_DIR$/fm3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/followAccounts.py" beforeDir="false" afterPath="$PROJECT_DIR$/followAccounts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/followAccountsTOP100.py" beforeDir="false" afterPath="$PROJECT_DIR$/followAccountsTOP100.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/101825.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/101825.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/136561.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/136561.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/178666.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/178666.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/109869.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/109869.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/134151.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/134151.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/158785.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/158785.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/180878.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/180878.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/181324.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181324.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/181509.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/181509.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/184805.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/184805.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/188703.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/188703.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/196518.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/196518.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/199974.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/199974.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/201207.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/201207.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/201970.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/201970.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/203067.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/203067.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/203489.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/203489.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/205008.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/205008.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/209179.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/209179.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/210126.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210126.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/217530.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/217530.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222770.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222770.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/222790.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222790.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/210163.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/210163.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/222799.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/222799.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/223033.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/223033.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/223647.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/223647.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/226162.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/226162.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/227435.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227435.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/227636.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/227636.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/228281.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/228281.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/230520.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230520.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/230065.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/230065.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/233450.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/233450.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/234431.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/234431.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/238399.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238399.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/238601.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238601.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/238849.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238849.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/237092.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/237092.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238305.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238305.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238334.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238334.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238390.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238390.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238413.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238413.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238449.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238449.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238452.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238452.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238497.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238497.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238539.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238539.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238593.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238593.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238638.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238638.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238759.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238759.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238784.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238784.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238930.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238930.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238970.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238970.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/238992.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/238992.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/239053.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239053.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/239961.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/239961.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/28675.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/28675.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/68226.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/68226.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,26 +84,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fm4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fm3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,17 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FMRobot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FMRobot" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -346,7 +325,8 @@
       <workItem from="1557056679666" duration="603000" />
       <workItem from="1557234206898" duration="599000" />
       <workItem from="1557924980007" duration="3000" />
-      <workItem from="1557925088631" duration="40000" />
+      <workItem from="1557925088631" duration="697000" />
+      <workItem from="1581820926878" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1549179219627</created>
@@ -488,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550298433249</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="..">
+      <created>1557925199013</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1557925199013</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94995000" />
+    <option name="totallyTimeSpent" value="95736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,9 +492,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.1945629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.22945206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -820,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fm3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="13" />
+        <state relative-caret-position="193">
+          <caret line="194" column="25" lean-forward="true" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
         </state>
       </provider>
     </entry>
